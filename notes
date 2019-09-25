@@ -1,0 +1,13 @@
+1. flow
+2. classes
+  2a.class relationships
+
+- user is shown a list of policy categories
+- prompts user to choose a category
+- prompts user to choose a policy
+- user sees details about the policy (problem to be solved and goal of the policy)
+
+Classes
+-policy
+-CLI
+-Scraper 
