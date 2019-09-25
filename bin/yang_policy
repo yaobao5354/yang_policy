@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts "hello"
+require_relative "../lib/yang_policy"
+
+YangPolicy::CLI.new.call
