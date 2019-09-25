@@ -1,6 +1,6 @@
 # YangPolicy
 
-shows the details of Andrew Yang's 2020 campaign policys
+shows the details of Andrew Yang's 2020 campaign policies
 
 ## Installation
 
