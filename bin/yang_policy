@@ -2,4 +2,6 @@
 
 require_relative "../lib/yang_policy"
 
-YangPolicy::CLI.new.call
+
+#YangPolicy::CLI.new.call
+Policy.new(name)
