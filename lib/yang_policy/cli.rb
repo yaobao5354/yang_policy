@@ -4,6 +4,7 @@ class YangPolicy::CLI
   def call
     make_topics
     make_policies
+    add_policy_attribute
     display_topics
   end
 
