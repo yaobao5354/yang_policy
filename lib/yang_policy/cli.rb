@@ -2,20 +2,20 @@ class YangPolicy::CLI
 
 
   def call
-    make_topics
+    #make_topics
     make_policies
     add_policy_attribute
-    display_topics
+    display_polices
   end
 
-  def make_topics
-    topics_array = ["ECONOMY/JOBS & LABOR", "DEMOCRACY/ GOVERNANCE"]
-    Topics.new(topics_array)
-  end
+  #def make_topics
+  #  topics_array = ["ECONOMY/JOBS & LABOR", "DEMOCRACY/ GOVERNANCE"]
+  #  Topics.new(topics_array)
+  #end
 
 
 
-  def display_topics
+  def display_polices
     puts "Welcome to Yang's policies"
     puts "please enter the topic number you will like to explore"
   #each topic.name with index to be listed

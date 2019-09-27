@@ -1,9 +1,10 @@
 class Policy
-  attr_accessor :name, :policy_url, :problem, :goal
+  attr_accessor :name, :url, :problem, :goal
   @@all = []
 
-  def initialize(polices_hash)
-    :name = name
+  def initialize(polices)
+    @name = name
+    @topic = self
     @@all << self
   end
 
